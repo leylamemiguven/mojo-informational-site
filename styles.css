@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    background: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1, h2, p, label, button{
+    font-family: "Kalnia", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+input, textarea{
+    font-family:'Lucida Sans',  sans-serif;
+    border-radius: 15px;
+    border: none;
+    padding: 1em 1.5em;
+}
+
+img, video{
+    border-radius: 15px
+}
+
+.about-text{
+    font-family:'Lucida Sans',  sans-serif;
+}
+
+.mojo-images{
+    display:flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+button{
+    background: green;
+    border:none;
+    border-radius: 15px;
+    padding: 1em 2em;
+    color: white
+}
+
+button:hover{
+    color:greenyellow;
+
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3em;
+}
+
+h2{
+    font-weight: 400;
+}
+
+span{
+    background: yellow;
+    padding: 0.1em 0.2em;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background: green;
+    padding: 0.4em;
+    border-radius: 15px;
+    color: white;
+}
+
+.main-mojo-img{
+    width: 300px;
+    margin: auto;
+}
+
+footer{
+    background: green;
+    padding: 2em;
+    text-align: center;
+    color: white;
+    margin-top: auto; /* Pushes footer to the bottom */
+
+    
+}
