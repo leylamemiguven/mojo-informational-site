@@ -1,4 +1,4 @@
-# mojo-infromational-site-nodejs
+# mojo-infromational-site
  A simple informational site about my eclectus parrot Mojo created with Node.js
 
 In the terminal run
