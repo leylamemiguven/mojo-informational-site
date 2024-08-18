@@ -15,6 +15,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height:100%;
 
 }
 
@@ -34,6 +35,10 @@ input, textarea{
 img, video{
     border-radius: 15px;
 
+}
+
+.about{
+    display:block;
 }
 
 .about-text{
